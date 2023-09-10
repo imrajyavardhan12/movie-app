@@ -7,7 +7,7 @@ import MovieCard from './MovieCard';
 
 // 6379ab20
 
-const API_URL ='http://www.omdbapi.com?apikey=6379ab20';
+const API_URL =`https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB}`;
 
 
 const App = () =>{
